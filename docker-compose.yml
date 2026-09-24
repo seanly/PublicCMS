@@ -3,7 +3,7 @@ name: publiccms
 services:
   publiccms:
     build: .
-    image: seanly/appset:publiccms-v4
+    image: registry.cn-chengdu.aliyuncs.com/seanly/appset:publiccms-V4.0-1
     container_name: publiccms
     restart: always
     ports:
